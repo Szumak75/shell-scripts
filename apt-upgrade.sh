@@ -2,7 +2,4 @@
 
 # (Debian|Ubuntu) APT upgrade sequence
 
-sudo apt update && \
-sudo apt upgrade && \
-sudo apt autoremove --purge -y && \
-sudo apt autoclean -y
+sudo sh -c "apt update && apt upgrade && apt autoremove --purge -y && apt autoclean -y"
