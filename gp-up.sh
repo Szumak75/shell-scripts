@@ -1,4 +1,15 @@
-#!/bin/sh
+#!/bin/bash
+
+if [ -z "$USERNAME" ]; then
+    if [ ! -z "$USER" ]; then
+        USERNAME="$USER"
+        export USERNAME
+    else
+        USERNAME=$(whoami)
+        export USERNAME
+    fi
+    
+fi
 
 globalprotect connect
 if [ $? -ne 0 ]; then

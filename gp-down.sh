@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 globalprotect disconnect
 if [ $? -ne 0 ]; then
