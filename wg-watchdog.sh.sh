@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #  wg-watchdog.sh.sh
-#  Author : Jacek Kotlarski --<jacek.kotlarski@bioseco.com>
+#  Author : Jacek 'Szumak' Kotlarski --<szumak@virthost.pl>
 #  Created: 29.08.2025, 13:33:06
 #  
 #  Purpose: Watchdog script for WireGuard VPN on TASK
