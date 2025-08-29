@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#  wg-watchdog.sh.sh
+#  wg-watchdog.sh
 #  Author : Jacek 'Szumak' Kotlarski --<szumak@virthost.pl>
 #  Created: 29.08.2025, 13:33:06
 #  
